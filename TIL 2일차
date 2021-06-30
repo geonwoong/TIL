@@ -1,0 +1,11 @@
+오늘은 JavaScript의 console.log와 함수에대해 배움.
+console 뒤에 나오는 .log는 콘솔이라는 집합 안에 있는 수많은 함수중의 하나인 log를 불러다 쓴다 라는 개념을 알게됨.
+마찬가지로 우리도 함수를 만들어 쓸 수 있다.
+예로 const calculator = { plus: function (a, b) { return a + b;} } 형식으로 만들어서 불러 쓸수 있다.
+
+'',"" 두가지 대신에 ``라는 것을 사용하면 좀더 효과적인 문장을 적을 수 있다. 변수가 들어갈 곳에 ${변수}라고 하면 그 값이 적용된다.
+
+console.log() 에서 ()안에 들어가는걸 arrgument, 인자라고 한다.
+[] 형식은 array를 나타내며 데이터 타입만을 사용가능하다 (const ,number, float, string, true/false)
+{} 형식은 object를 말한다. 실제 객체를 만드는것. 
+재밌는 점은 object안에 object를, array를 생성할 수 있다는점. 
